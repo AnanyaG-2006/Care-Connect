@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Care-Connect.iml" filepath="$PROJECT_DIR$/.idea/Care-Connect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP Project/OOP Project.iml" filepath="$PROJECT_DIR$/OOP Project/OOP Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro/pro.iml" filepath="$PROJECT_DIR$/pro/pro.iml" />
     </modules>
   </component>
 </project>
