@@ -74,7 +74,7 @@ public class DoctorManagementForm extends JFrame {
 
         add(buttons, BorderLayout.SOUTH);
 
-        // ---------- Button Actions ----------
+        // ---------- Button Actions --------
         btnAdd.addActionListener(e -> {
             Doctor doctor = new Doctor(
                     txtId.getText(),

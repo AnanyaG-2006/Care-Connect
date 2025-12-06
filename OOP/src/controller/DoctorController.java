@@ -1,4 +1,4 @@
-package controller;
+package controller; //package name.
 
 import model.Doctor;
 import java.util.ArrayList;

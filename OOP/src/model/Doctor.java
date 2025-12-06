@@ -18,7 +18,7 @@ public class Doctor {
         this.timeSlots = timeSlots;
     }
 
-    // Getters and Setters
+    // Getters and Setters--
     public String getDoctorId() { return doctorId; }
     public void setDoctorId(String doctorId) { this.doctorId = doctorId; }
 
