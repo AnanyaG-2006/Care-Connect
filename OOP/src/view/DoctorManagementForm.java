@@ -20,7 +20,8 @@ public class DoctorManagementForm extends JFrame {
 
         setTitle("Manage Doctors");
         setSize(800, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
         setLayout(new BorderLayout());
 
         // ---------- Form Panel ----------
@@ -67,10 +68,12 @@ public class DoctorManagementForm extends JFrame {
         JButton btnAdd = new JButton("Add");
         JButton btnUpdate = new JButton("Update");
         JButton btnDelete = new JButton("Delete");
+        JButton btnBack = new JButton("Back");
 
         buttons.add(btnAdd);
         buttons.add(btnUpdate);
         buttons.add(btnDelete);
+        buttons.add(btnBack);
 
         add(buttons, BorderLayout.SOUTH);
 
@@ -126,6 +129,8 @@ public class DoctorManagementForm extends JFrame {
                 model.setValueAt(txtSlots.getText(), row, 5);
             }
         });
+        btnBack.addActionListener(e -> dispose());
+
 
         table.getSelectionModel().addListSelectionListener(e -> {
             int row = table.getSelectedRow();

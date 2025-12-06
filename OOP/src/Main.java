@@ -1,7 +1,7 @@
-import view.DoctorManagementForm;
+import view.MainMenu;
 
 public class Main {
     public static void main(String[] args) {
-        new DoctorManagementForm().setVisible(true);
+        new MainMenu().setVisible(true);
     }
 }
