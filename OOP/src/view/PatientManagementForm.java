@@ -46,6 +46,7 @@ public class PatientManagementForm extends JFrame {
         txtMedical = new JTextArea(3, 20);
         form.add(new JScrollPane(txtMedical));
 
+
         add(form, BorderLayout.NORTH);
 
         // -------- Table --------

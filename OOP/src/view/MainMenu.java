@@ -13,6 +13,7 @@ public class MainMenu extends JFrame {
 
     public MainMenu() {
 
+
         setTitle("MediCare Plus System");
         setSize(350, 400);
         setLayout(new GridLayout(9, 1));

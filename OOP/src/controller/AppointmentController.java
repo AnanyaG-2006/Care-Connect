@@ -34,6 +34,7 @@ public class AppointmentController {
                 JOptionPane.INFORMATION_MESSAGE
         );
 
+
         // Notify Patient
         JOptionPane.showMessageDialog(null,
                 "Your appointment is confirmed with Dr. " + doctorName +

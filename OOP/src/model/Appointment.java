@@ -8,6 +8,7 @@ public class Appointment {
     private String time;
     private String status;
 
+
     public Appointment(String appointmentId, String patientName,
                        String doctorName, String date,
                        String time, String status) {

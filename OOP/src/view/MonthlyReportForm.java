@@ -18,6 +18,7 @@ public class MonthlyReportForm extends JFrame {
         JTextArea report = new JTextArea();
         report.setEditable(false);
 
+
         int total = controller.getAllAppointments().size();
         report.append("Total Appointments: " + total + "\n\n");
 

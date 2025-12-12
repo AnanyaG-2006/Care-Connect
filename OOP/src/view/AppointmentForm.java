@@ -69,6 +69,7 @@ public class AppointmentForm extends JFrame {
         buttons.add(btnDelete);
         buttons.add(btnBack);
 
+
         add(buttons, BorderLayout.SOUTH);
 
         // ---------- Actions ----------

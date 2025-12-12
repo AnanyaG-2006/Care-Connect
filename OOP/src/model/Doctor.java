@@ -8,6 +8,7 @@ public class Doctor {
     private String workingDays;
     private String timeSlots;
 
+
     public Doctor(String doctorId, String name, String specialty,
                   String phone, String workingDays, String timeSlots) {
         this.doctorId = doctorId;

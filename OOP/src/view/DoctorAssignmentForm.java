@@ -51,6 +51,7 @@ public class DoctorAssignmentForm extends JFrame {
 
     }
 
+
     private void assignDoctor() {
         String required = cmbSpecialty.getSelectedItem().toString();
 

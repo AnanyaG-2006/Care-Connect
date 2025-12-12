@@ -10,6 +10,7 @@ public class DoctorNotificationForm extends JFrame {
 
     public DoctorNotificationForm(AppointmentController controller) {
 
+
         setTitle("Doctor Notifications");
         setSize(400, 300);
         setLayout(new BorderLayout());

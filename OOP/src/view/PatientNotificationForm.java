@@ -14,6 +14,7 @@ public class PatientNotificationForm extends JFrame {
         setSize(400, 300);
         setLayout(new BorderLayout());
 
+
         JTextArea area = new JTextArea();
         area.setEditable(false);
 
