@@ -38,4 +38,3 @@ public class Doctor {
     public String getTimeSlots() { return timeSlots; }
     public void setTimeSlots(String timeSlots) { this.timeSlots = timeSlots; }
 }
-

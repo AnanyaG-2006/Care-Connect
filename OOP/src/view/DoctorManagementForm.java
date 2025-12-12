@@ -1,7 +1,6 @@
 package view;
 
 import controller.DoctorController;
-import model.Doctor;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
