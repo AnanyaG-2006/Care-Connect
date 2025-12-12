@@ -7,7 +7,6 @@ public class Patient {
     private String phone;
     private String medicalHistory;
 
-
     public Patient(String patientId, String name, String age,
                    String phone, String medicalHistory) {
         this.patientId = patientId;

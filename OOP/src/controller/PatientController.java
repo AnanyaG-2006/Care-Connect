@@ -3,7 +3,6 @@ package controller;
 import model.Patient;
 import java.util.ArrayList;
 
-
 public class PatientController {
 
     private ArrayList<Patient> patientList = new ArrayList<>();

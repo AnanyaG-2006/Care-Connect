@@ -120,7 +120,6 @@ public class DoctorManagementForm extends JFrame {
                         txtSlots.getText()
                 );
 
-
                 controller.updateDoctor(row, doctor);
                 model.setValueAt(txtId.getText(), row, 0);
                 model.setValueAt(txtName.getText(), row, 1);

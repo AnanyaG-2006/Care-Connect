@@ -42,7 +42,6 @@ public class AppointmentStatusForm extends JFrame {
         JButton btnUpdate = new JButton("Update Status");
         JButton btnBack = new JButton("Back");
 
-
         bottom.add(new JLabel("Status:"));
         bottom.add(cmbStatus);
         bottom.add(btnUpdate);
